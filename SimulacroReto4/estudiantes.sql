@@ -1,0 +1,1 @@
+CREATE TABLE 'estudiantes' ('idEstudiante'	INTEGER NOT NULL,'nombre'	TEXT NOT NULL,'apellido'	TEXT NOT NULL,'email'	TEXT NOT NULL UNIQUE,'edad'	INTEGER,'carrera' TEXT,PRIMARY KEY('idEstudiante' AUTOINCREMENT))
